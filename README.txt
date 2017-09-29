@@ -1,0 +1,1 @@
+This directory has all the image processing assignments and projects I have been working on.
