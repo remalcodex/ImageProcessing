@@ -1,0 +1,39 @@
+// this 2MxN matrix gives a set of M correspondences across N images
+// the format is interleaved x and y values by rows
+16 4
+// x coord for first point (must be floating point)
+181.0 179.0 191.0 163.0
+// y coord for first point
+70.0 99.0 89.0 97.0
+// x coord for second point
+259.0 250.0 254.0 267.0
+// y coord for second point
+75.0 113.0 114.0 71.0 
+// and so forth
+269.0 280.0 279.0 278.0 
+120.0 145.0 156.0 110.0 
+261.0 250.0 236.0 289.0 
+167.0 183.0 187.0 154.0
+// Changing 193 154 here to 185 181.
+185.0 180.0 168.0 185.0 
+177.0 197.0 187.0 181.0 
+102.0 105.0 100.0 84.0 
+170.0 183.0 161.0 206.0 
+// Changing 170 value here. to 71.
+91.0 71.0 71.0 75.0 
+123.0 148.0 118.0 167.0 
+99.0 105.0 128.0 63.0 
+81.0 111.0 87.0 123.0 
+// For the number of images specified above 0..N-1, each one
+// has a file name, given by a string
+shape_atlas1.tif
+shape_atlas2.tif
+shape_atlas3.tif
+shape_atlas4.tif
+// These are the filenames for the output.  Could be anything indicated
+// by this string
+//ATLAS_FILE_OUTPUT 
+atlas_out.png
+// other parameters such as kernel width
+20.0
+02

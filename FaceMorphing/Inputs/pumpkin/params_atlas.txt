@@ -1,0 +1,49 @@
+// this 2MxN matrix gives a set of M correspondences across N images
+// the format is interleaved x and y values by rows
+22 10
+// x coord for first point (must be floating point)
+54	36	62	43	72	58	77	58	45	35
+// y coord for first point
+64	69	71	58	58	65	65	35	85	69
+// x coord for second point
+143	163	138	159	123	148	133	149	151	164
+// y coord for second point
+54	69	68	57	53	65	69	37	76	69
+// and so forth
+93	86	90	82	92	86	78	94	89	85
+91	95	110	85	81	86	95	70	114	94
+104	113	105	119	113	118	128	119	114	114
+90	94	110	83	80	86	99	72	112	94
+66	56	73	66	78	56	64	63	59	59
+115	114	111	111	87	115	97	87	127	115
+139	147	129	142	129	146	141	144	144	147
+107	113	107	105	80	116	97	86	123	114
+101	99	99	104	104	102	102	106	101	101
+114	125	117	113	99	110	114	95	127	124
+24	36	39	28	48	12	45	20	33	35
+114	104	111	90	91	103	123	97	119	104
+172	165	158	176	159	189	160	183	169	167
+106	106	103	85	84	100	132	95	109	106
+101	104	100	105	105	100	105	106	102	99
+147	146	135	142	128	125	136	129	140	147
+103	103	100	105	105	103	102	104	103	97
+167	171	164	178	160	165	180	164	170	170
+// For the number of images specified above 0..N-1, each one
+// has a file name, given by a string
+pumpkin/pumpkin_1.jpg
+pumpkin/pumpkin_2.jpg
+pumpkin/pumpkin_3.jpg
+pumpkin/pumpkin_4.jpg
+pumpkin/pumpkin_5.jpg
+pumpkin/pumpkin_6.jpg
+pumpkin/pumpkin_7.jpg
+pumpkin/pumpkin_8.jpg
+pumpkin/pumpkin_9.jpg
+pumpkin/pumpkin_10.jpg
+// These are the filenames for the output.  Could be anything indicated
+// by this string
+//ATLAS_FILE_OUTPUT 
+pumpkin_atlas_out.png
+// other parameters such as kernel width
+20.0
+02

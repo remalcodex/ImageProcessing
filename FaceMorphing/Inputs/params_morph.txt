@@ -1,0 +1,40 @@
+// this 2Mx2 matrix gives a set of M correspondences between 2 images
+// the format is interleaved x and y values by rows
+16 2
+// x coord for first point 
+181.0 163.0
+// y coord for first point
+70.0 97.0
+// x coord for second point
+259.0 267.0
+// y coord for second point
+75.0 71.0 
+// and so forth
+269.0 278.0 
+120.0 110.0 
+261.0 289.0 
+167.0 154.0
+185.0 193.0 
+177.0 180.0 
+102.0  84.0 
+170.0 206.0 
+91.0 75.0 
+123.0 167.0 
+99.0 63.0 
+81.0 123.0
+// Both input images have file name, given by a string
+shape_atlas1.tif
+shape_atlas4.tif
+// These are the filenames for the output.  Could be anything indicated
+// by this string.  In this case
+// morph output would be "morph_out_1.tif", "morph_out_2.tif", etc. 
+moprh_out
+// number of morph images including start and end image
+10
+// other parameters such as kernel width
+20
+// Which kernel you want to choose for execution. (Prefer thin plate spline for face problem).
+// 01 is guassian
+// 02 is thin plate spline.
+// 03 is inverse quadratic.
+01
